@@ -1,0 +1,65 @@
+li:visited,
+li:focus,
+li:active {
+  text-decoration: line-through;
+}
+body{
+  margin: auto;
+}
+*{
+box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+ul li {
+  position: relative;
+  background: #eee;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  transition: 0.2s;
+}
+
+ul li:nth-child(odd){
+  background: grey;
+}
+
+input{
+  position: relative;
+  left: 2%;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 8%;
+  padding: 5px;
+  float:left;
+  font-size: 12px;
+ text-align: center;
+}
+.addBtn {
+  position: relative;
+  left: 3%;
+  float: left;
+  text-align: center;
+  padding: 3px;
+  border-radius: 50;
+  width: 8%;
+  font-size: 12px;
+  transition: 0.3s;
+}
+.inputdiv {
+  background-color:yellowgreen;
+  padding: 20px 20px;
+  color: white;
+  text-align: center;
+  content: "";
+  display: flex;
+  
+}
+  .listdiv {
+    background-color: yellowgreen;
+    padding: 20px 20px;
+    color: black;
+  }
+ 
